@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: black; */
+}
+a{
+    text-decoration: none;
+}
+
+/* Navigation bar  */
+
+/* nav{
+    position:fixed ;
+    width: 100%;
+    box-shadow: 2px 2px 2px  rgba(4, 4, 92, 0.912);
+} */
+nav .O7-contect{
+    height: 50px;
+    width: 100%;
+    background: rgba(4, 4, 92, 0.912);
+    border:0.5px solid rgba(255, 255, 255, 0.603);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contect-number{
+    margin-right: 300px;
+}
+nav .platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .platform a{
+    text-decoration: none;
+    color:white;
+}
+.platform i{
+    margin: 0 10px 0px 11px;
+}
+.platform p{
+    margin: 0px 20px 0px 20px;
+}
+.platform a{
+    border-left: 1px solid rgba(255, 255, 255, 0.188);
+    border-right: 1px solid rgba(255, 255, 255, 0.318);
+}
+.platform a i:hover{
+    transition: 0.3s;
+    color:brown;
+}
+
+/* nav-option  */
+
+.nav-option{
+    height: 90px;
+    width: 100%;
+    background: rgba(3, 26, 75, 0.823);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-option .logo{
+    background: url(img1.png);
+    height: 30px;
+    width: 130px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-option ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 190px;
+}
+
+.nav-option ul li{
+    list-style: none;
+    padding: 15px;
+}
+.nav-option ul li a{
+    color:white;
+    font-size: 0.95rem;
+    font-weight: 550;
+}
+.nav-option ul li a:hover{
+    color:rgba(6, 6, 65, 0.486);
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+/* main  */
+/* section  */
+
+/* section{
+    padding-top: 140px
+} */
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slider-img{
+    background: url(img2.jpg);
+    height: 670px;
+    width: 90%;
+    background-size: cover;
+    text-transform: capitalize;
+}
+.slider-img .what-is{
+    padding: 190px 0 0 50px;
+    line-height: 2.6rem;
+}
+#providing{
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgba(4, 4, 92, 0.912);
+}
+#Trainning{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:rgba(3, 26, 75, 0.823);
+}
+#save{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: rgba(4, 4, 92, 0.912);
+    opacity: 0.85;
+    margin-top: 20px;
+}
+.what-is button{
+    height: 50px;
+    width: 190px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    background: rgba(4, 4, 92, 0.85);
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.what-is button:hover{
+    background-color: rgb(9, 9, 246);
+    transition: 0.3s;
+}
+
+/* cources-mention  */
+
+.cources-mention{
+    background: rgba(4, 4, 92, 0.85);
+}
+.intro{
+    text-align: center;
+    color:white;
+    padding-top: 60px;
+    line-height: 2.36rem;
+}
+#intro1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+#intro2{
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+/* cources box  */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.cources-box{
+    height: 300px;
+    width: 250px;
+    background: rgb(37, 30, 30);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 30px 30px;
+    box-shadow: 2px 4px 6px white;
+}
+.cources-box:hover{
+    box-shadow: 1px 1px 1px white;
+}
+.cources-box .cources-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px ;
+    padding-bottom: 20px;
+}
+.image img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+.cources-box .cources-img .image{
+    height:90px;
+    width: 90px;
+    border-radius: 50%;
+    background: white;
+}
+.cources-box p{
+    font-size: 1.2rem;
+    font-weight: 600px;
+}
+.cources-box button{
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    background: rgba(4, 4, 92, 0.85);
+    border:none;
+    color:white;
+}
+.cources-box button:hover{
+    background-color: rgb(9, 9, 246);
+    transition: 0.3s;
+}
+
+ /* Why to choose us */
+
+.why-to-choose-us{
+    display: flex;
+}
+ .know-about-img{
+    background-image: url(img3.jpg);
+    height: 440px;
+    width: 800px;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 60px 30px 0 150px;
+ }
+ .reason-to-choose-us{
+    margin: 40px 0 0 30px;
+    flex-wrap: wrap;
+ }
+ .head{
+    display: flex;
+ }
+ .head p{
+    font-size: 0.95rem;
+    font-weight: 550;
+    color: rgba(4, 4, 92, 0.85);
+    margin-left: 20px;
+ }
+ .content h1{
+    font-size: 2.5rem;
+    padding: 20px 20px;
+    margin-left: -20px;
+ }
+ .content p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+ }
+.provided-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+.provided-box .pbox{
+    height: 110px;
+    width: 350px;
+    box-shadow: 1px 1px 1px 1px rgb(181, 178, 178);
+    margin-right: 50px;
+    margin:20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.provided-box .pbox img{
+    background-image: url(img4.png);
+    height: 60px;
+    width: 80px;
+    background-size: cover;
+    margin-left: 30px;
+}
+.pbox p{
+    font-size: 1.3rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+/* Industrial Trainning cources */
+
+
+.training-box{
+    background-color: rgba(201, 201, 248, 0.277);
+}
+.thead h1{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 50px 0;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 70px 70px 70px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tbox{
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.tbox:hover{
+    border-bottom-style:solid;
+}
+.tbox img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tbox h3{
+    text-align: center;
+    margin: 15px;
+    font-size: 1.4rem;
+}
+.tbox p{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 20px 50px 50px 50px;
+}
+
+/* student  */
+
+.students{
+    height: 180px;
+    width: 100%;
+    background: rgba(4, 4, 92, 0.85);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbox{
+    height: 110px;
+    width: 110px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.sbox:hover{
+    border-bottom-style:solid;
+}
+.sbox h1{
+    font-size: 2.9rem;
+    text-align: center;
+    color: rgb(4, 4, 92);
+}
+.sbox h3{
+    text-align: center;
+    margin: 10px;
+}
+
+/* contect for we */
+
+
+.contect-for-we{
+    display: flex;
+    background: rgba(3, 26, 75, 0.823);
+    border-top: 2px solid white;
+    border-bottom: 5px solid white;
+}
+.request{
+    width: 50%;
+    /* background: rgba(3, 26, 75, 0.823); */
+    color:white;
+    margin-top: 50px;
+    padding: 50px 50px 50px 100px;
+    border-radius: 5px;
+}
+.request h1{
+    font-size: 2.5rem;
+    line-height: 6rem;
+}
+.request p{
+    font-size: 1.1rem;
+}
+.request form {
+    margin-top: 10px;
+}
+.request form input{
+    height: 40px;
+    width: 500px;
+    padding: 0 0 0 20px;
+    border-radius: 8px;
+    margin: 10px 10px;
+}
+.request form button{
+    height: 45px;
+    width: 525px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px 10px;
+    background: #00ff26de;
+}
+.request form button:hover{
+    background:  #00ff2675;
+    border: 1px solid black;
+    color: white;
+}
+.map{
+    width: 50%;
+}
+.map iframe{
+    margin: 100px 50px 50px 50px;
+    /* height: 1000px; */
+    background-size: cover;
+}
+
+
+/* footer  */
+
+.footer-content{
+    display: flex;
+    background: rgba(3, 26, 75, 0.823);
+    color:white;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+.intro{
+    width: 25%;
+    flex-wrap: wrap;
+}
+.intro .img{
+    background: url(img1.png);
+    height: 50px;
+    width: 200px;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.intro p{
+    line-height: 1.6rem;
+}
+
+.links{
+    width: 22%;
+    margin-left: 30px;
+}
+.links h2{
+    margin-bottom: 20px;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    color: white;
+    opacity: 0.9;
+    line-height: 2.1rem;
+    font-size: 1.1rem;
+}
+.links li a:hover{
+    color: aqua;
+    opacity: 1;
+}
+.footer-para{
+    padding: 50px;
+    margin: 20px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.303);
+}
+.footer-para p{
+    text-align: center;
+    opacity: 0.6;
+}
+
+.c{
+    height: 50px;
+    width: 100%;
+    background: #01ffc8e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+.c .phone-no{
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid white;
+    border-color: black;
+}
+.c .call{
+    width: 50%;
+    text-align: center;
+}
+
+.joy-98 p{
+    font-size: 1.2rem;
+    color:rgb(251, 127, 255);
+    margin-left: 600px;
+    margin-top: -30px;
+}
